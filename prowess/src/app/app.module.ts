@@ -7,10 +7,11 @@ import { ButtonModule } from 'primeng/button';
 import { CheckboxModule } from 'primeng/checkbox';
 import { FormsModule } from '@angular/forms';
 import { FormMessageComponent } from './form-message/form-message.component';
-// import { Routes } from '@angular/router';
+import { Routes } from '@angular/router';
 import {InputTextModule} from 'primeng/inputtext';
 import { ContactComponent } from './contact/contact.component';
 import { GMapModule } from 'primeng/gmap';
+import { GoogleMapsModule } from '@angular/google-maps'
 import { DialogModule } from 'primeng/dialog';
 import { HeaderComponent } from './header/header.component';
 import { ChipModule } from 'primeng/chip';
@@ -34,6 +35,7 @@ import {BreadcrumbModule} from 'primeng/breadcrumb';
     FormsModule,
     InputTextModule,
     GMapModule,
+    GoogleMapsModule,
     DialogModule,
     ChipModule,
     TabMenuModule,
