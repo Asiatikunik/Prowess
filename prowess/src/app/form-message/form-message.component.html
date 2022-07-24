@@ -1,0 +1,37 @@
+<p>form-message works!</p>
+<div class="p-grid" id="formMessage">
+    <div class="p-col-1">
+        <span class="p-float-label p-col-12">
+            <input type="text" id="inputtext" pInputText [(ngModel)]="nom" 
+            style="width: 40%; height: 35px; background-color: rgb(226, 226, 226);"> 
+            <label for="Nom">Nom</label>
+        </span>
+    </div>
+    <div class="p-col-1">
+        <span class="p-float-label p-col-12">
+            <input type="text" id="inputtext" pInputText [(ngModel)]="prenom" style="width: 40%; height: 35px; background-color: rgb(226, 226, 226);"> 
+            <label for="Prenom">Prénom</label>
+        </span>
+    </div>
+    <div class="p-col-1">
+        <span class="p-float-label p-col-12">
+            <input type="text" id="inputtext" pInputText [(ngModel)]="mail" style="width: 100%; height: 35px; background-color: rgb(226, 226, 226);"> 
+            <label for="Email">Adresse Email</label>
+        </span>
+    </div>
+    <div class="p-col-1">
+        <span class="p-float-label p-col-12">
+            <input type="text" id="inputtext" pInputText [(ngModel)]="objet" style="width: 100%; height: 35px; background-color: rgb(226, 226, 226);"> 
+            <label for="Objet">Objet</label>
+        </span>
+    </div>
+        <div class="p-col-1">
+        <span class="p-float-label p-col-12">
+            <input type="text" id="inputtext" pInputText [(ngModel)]="message" style="width: 100%; height: 80px; background-color: rgb(226, 226, 226);"> 
+            <label for="Message">Message</label>
+        </span>
+    </div>
+    <div class="p-col-1">
+        <button pButton type="button" label="Envoyer" class="p-button-success"></button>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+#formMessage {
+    background-color: lightgrey;
+    height: 100%;
+    width: 300px;
+    padding: 10px;
+}
+
+span {
+    margin: 20px;
+}
